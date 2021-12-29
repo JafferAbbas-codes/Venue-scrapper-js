@@ -1,0 +1,17 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaffer",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.2",
+    "cheerio": "^1.0.0-rc.10",
+    "image-downloader": "^4.0.3",
+    "request": "^2.88.2"
+  }
+}

@@ -3,7 +3,7 @@ const obj = require("./data.json");
 const axios = require("axios");
 
 obj.venues.map(async (venue, i) => {
-  venue.vendorId = 1;
+  venue.ownerId = 1;
   axios
     .post("http://localhost:4000/api/venue", venue)
     .then((response) => {
